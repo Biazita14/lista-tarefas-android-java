@@ -43,4 +43,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    // Dependencia do Selenium WebDriver para Java
+    testImplementation("org.seleniumhq.selenium:selenium-java:4.49.0")
 }
